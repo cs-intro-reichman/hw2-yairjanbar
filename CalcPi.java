@@ -2,7 +2,9 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	    // Replace this comment with your code
-		String s = args[0];
-		System.out.println (s);
+		String hours = args[0].charAt(0) + "" + args[0]time.charAt(1);
+		System.out.println(hours);
+		int mins = Integer.parseInt(args[1]);
+		
 	}
 }
