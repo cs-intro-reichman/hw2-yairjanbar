@@ -13,6 +13,7 @@ public class Cheers {
                 }
                 else System.out.println("Give me a " + tav + ": " + tav + "!" );
             }
+            System.out.println("What does that spell?");
             for (int n=0;n<num;n++)
             {
                 System.out.println(name + "!!!");
