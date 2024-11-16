@@ -2,6 +2,7 @@
 public class CalcPi {
 	public static void main(String [] args) { 
 	    // Replace this comment with your code
-		System.out.println (6);
+		String s = args[0];
+		System.out.println (s);
 	}
 }
