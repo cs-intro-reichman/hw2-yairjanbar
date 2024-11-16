@@ -11,7 +11,7 @@ public class Cheers {
                 tav == 'M'|| tav == 'N'|| tav == 'O'|| tav == 'R'||tav == 'S'||tav == 'X'){
                         System.out.println("Give me an " + tav + ": " + tav + "!" );
                 }
-                else System.out.println("Give me a " + tav + ": " + tav + "!" );
+                else System.out.println("Give me a  " + tav + ": " + tav + "!" );
             }
             System.out.println("What does that spell?");
             for (int n=0;n<num;n++)
