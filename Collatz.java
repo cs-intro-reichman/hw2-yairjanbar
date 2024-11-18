@@ -5,7 +5,7 @@ public class Collatz {
 		int number2 = Integer.parseInt(args[0]);
 		String s= args[1];
 		int number3=1;
-		if (mode.equals("v")) {
+		if (s.equals("v")) {
 			while(number3<=number2) {
 				int counter=1;
 				int number=number3;
@@ -25,7 +25,7 @@ public class Collatz {
 			System.out.println("Every one of the first " +number2+" hailstone sequences reached 1.");
 	
 		}
-		if (mode.equals("c")) {
+		if (s.equals("c")) {
 			System.out.println("Every one of the first " +number2+" hailstone sequences reached 1.");
 		}
 	}
