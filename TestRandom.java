@@ -2,5 +2,15 @@
 public  class  TestRandom {
 	public static void main(String[]  args) {
 	    // Replace this comment with your code
+		int num = Integer.parseInt(args[0]);
+		int tillThisNum = 0;
+		int r1, count1=0, count2=0 ;
+		while (tillThisNum < num) {
+			r1 = Math.random();
+			if (r1<0.5) count1 = count1 + 1;
+			else count2 = count2 + 1;
+		}
+		if (count1<count2) System.out.println(count1/count2);
+		else System.out.println(count2/count1);
 	}
 }
